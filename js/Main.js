@@ -9,8 +9,14 @@ $('.owl-carousel').owlCarousel({
     autoplayTimeout:5000,
     smartSpeed:300,
     responsive: {
-        1280: {
+        420: {
             items: 1
+        },
+        768: {
+            items: 1
+        },
+        1280: {
+            items: 2
         },
         1920: {
             items: 2
