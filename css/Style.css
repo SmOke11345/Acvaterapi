@@ -556,47 +556,7 @@ i {
 	.container-another {
 		width: 100%;
 	}
-	/* Header */
-	header {
-		padding: 15px 0px 5px 0px;
-	}
-	/* First Screen */
-
-	/* Сеансы RitmStyle */
-
-	/* Отзывы */
-
-	/* Об RitmStyle */
-	.Img-Content {
-		position: absolute;
-		width: 94%;
-	}
-	.Content {
-		position: relative;
-		z-index: 2;
-		width: 100%;
-		padding: 40px 20px 20px 20px;
-	}
-	.Left {
-		margin-right: 0;	
-	}
-	h2 {
-		font-size: 20px;
-	}
-	p {
-		font-size: 12px;
-	}
-	/* Стоимость сеансов */
-
-	/* Карта */
-
-}
-@media screen and (max-width: 420px) {
-	/* Общие настройки */
-	body {
-		width: 94%;
-	}
-	.Head-Text {
+    .Head-Text {
 		padding-top: 45px;
 		font-size: 20px;
 	}
@@ -608,7 +568,10 @@ i {
 		padding-top: 30px;
 	}
 	/* Header */
-	.submenu__overlay li {
+	header {
+		padding: 15px 0px 5px 0px;
+	}
+    .submenu__overlay li {
 		font-size: 24px;
 		margin-top: 25px;
 	}
@@ -617,11 +580,12 @@ i {
 		height: 45px;
 	}
 	/* First Screen */
-	.Offer__RitmStyle {
+    .Offer__RitmStyle {
 		top: 130px;
 	}
 	.Aquatherapy {
 		margin-top: 25px;
+        height: 230px;
 	}
 	.Signature {
 		font-size: 12px;
@@ -640,23 +604,43 @@ i {
 		padding-top: 5px;
 		font-size: 30px;
 	}
-	/* Сеансы RitMStyle */
-	.Text-in-Sessions {
+	/* Сеансы RitmStyle */
+    .Text-in-Sessions {
 		padding: 5px;
 		font-size: 10px;
 	}
 	/* Отзывы */
-	.owl-carousel {
+    .owl-carousel {
 		padding-top: 20px;
 	}
 	.item {
 		height: 200px;
 	}
-	
 	/* Об RitmStyle */
-
+	.Img-Content {
+		position: relative;
+		width: 94%;
+	}
+	.Content {
+		position: absolute;
+		z-index: 2;
+		width: 80%;
+		padding: 40px 20px 20px 20px;
+	}
+	.Left {
+		margin-right: 0;	
+	}
+	h2 {
+		font-size: 20px;
+	}
+	p {
+		font-size: 12px;
+	}
+    .Img-Content img {
+        width: 106%;
+    }
 	/* Стоимость сеансов */
-	.Content-3 li {
+    .Content-3 li {
 		font-size: 10px;
 		
 	}
@@ -672,6 +656,45 @@ i {
 	/* Карта */
 
 }
+@media screen and (max-width: 768px) {
+	/* Общие настройки */
+	
+	/* Header */
+	
+	/* First Screen */
+	
+	/* Сеансы RitMStyle */
+	
+	/* Отзывы */
+	
+	
+	/* Об RitmStyle */
 
+	/* Стоимость сеансов */
+	
+	/* Карта */
 
+}
+
+@media screen and (max-width: 336px) {
+    /* Общие настройки*/
+	
+	
+	/* Header */
+	
+	/* First Screen */
+
+	/* Сеансы RitmStyle */
+
+	/* Отзывы */
+
+	/* Об RitmStyle */
+	p {
+        padding: 10px 0px 0px 0px;
+    }
+
+	/* Стоимость сеансов */
+
+	/* Карта */
+}
 
