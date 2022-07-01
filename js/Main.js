@@ -2,7 +2,7 @@
 //Карусель комментариев
 $('.owl-carousel').owlCarousel({
     loop: true,
-    dots: true,
+    dots: false,
     margin:50,
     items:1,
     autoplay:true,
