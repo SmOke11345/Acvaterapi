@@ -168,7 +168,7 @@ p {
 	text-align: center;
 }
 .Card-Thanks img {
-	width: 100%;
+	width: 90%;
 }
 .Content-3 {
 	padding: 37px;
@@ -383,6 +383,7 @@ i {
 	.Content-wrapper {
 		padding-top: 60px;
 	}
+
 	/* Отзывы */
 	.owl-carousel {
 		padding-top: 60px;
@@ -390,7 +391,11 @@ i {
 	.item {
 		height: 300px;
 	}
+
 	/* Об RitmStyle */
+	.Content.About {
+		padding-top: 20px;
+	}
 	.d-none {
 		display: none;
 	}
@@ -403,6 +408,7 @@ i {
 	h2 {
 		font-size: 22px;
 	}
+
 	/* Стоимость сеансов */
 	.Content-3 {
 		padding: 60px 20px 0px 0px;
@@ -423,6 +429,7 @@ i {
 	.Name-Price {
 		min-width: 350px;
 	}
+
 	/* Карта */
 	.Card-Adress {
 		row-gap: 25px;
@@ -437,13 +444,21 @@ i {
 	.d-block {
 		display: block;
 	}
+
 	/*Footer*/ 
 	.Footer{
 		font-size: 14px;
 	}
 }
 @media screen and (max-width: 1075px) {
-	
+	/* Общие настройки */
+	.Head-Text {
+		padding-top: 50px;
+	}
+	.Content-wrapper {
+		padding-top: 30px;
+	}
+
 	/* Header */
 	.menu li {
 		display: none;
@@ -459,11 +474,25 @@ i {
 	/* Сеансы RitmStyle */
 
 	/* Отзывы */
+	.owl-carousel {
+		padding-top: 30px;
+	}
 
 	/* Об RitmStyle */
+	.Content {
+		padding-top: 20px;
+	}
+	.Content.About {
+		padding-right: 0px;
+	}
+	p {
+		padding-top: 15px;
+	}
 
 	/* Стоимость сеансов */
-
+	.Content-3 {
+		padding-top: 30px;
+	}
 	/* Карта */
 
 }
@@ -482,9 +511,6 @@ i {
 	.adaptive {
 		margin: -15px;
 	}
-	.Content-wrapper {
-		padding-top: 30px;
-	}
 	/* Header */
 	header {
 		padding: 15px 0px 5px 0px;
@@ -497,6 +523,7 @@ i {
 		width: 45px;
 		height: 45px;
 	}
+
 	/* First Screen */
     .Offer__RitmStyle {
 		top: 130px;
@@ -522,11 +549,13 @@ i {
 		padding-top: 5px;
 		font-size: 30px;
 	}
+
 	/* Сеансы RitmStyle */
     .Text-in-Sessions {
 		padding: 5px;
 		font-size: 10px;
 	}
+
 	/* Отзывы */
     .owl-carousel {
 		padding-top: 20px;
@@ -534,19 +563,11 @@ i {
 	.item {
 		height: 200px;
 	}
+
 	/* Об RitmStyle */
-	.Img-Content {
-		position: relative;
-		width: 94%;
-	}
 	.Content {
-		position: absolute;
-		z-index: 2;
 		width: 80%;
 		padding: 25px 20px 20px 20px;
-	}
-	.Left {
-		margin-right: 0;	
 	}
 	h2 {
 		font-size: 20px;
@@ -554,9 +575,7 @@ i {
 	p {
 		font-size: 12px;
 	}
-    .Img-Content img {
-        width: 106%;
-    }
+
 	/* Стоимость сеансов */
     .Content-3 li {
 		font-size: 10px;
@@ -565,33 +584,34 @@ i {
 	.Price {
 		font-size: 10px;
 	}
-	.Content-3 {
-		padding: 0px;
-	}
 	.Name-Price {
 		min-width: 200px;
 	}
 	/* Карта */
 
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 425px) {
  	/* Общие настройки*/
 	 .Head-Text {
 		padding-top: 25px;
 		font-size: 20px;
 	}
+
 	/* Header */
+	
 	
 	/* First Screen */
 	.Aquatherapy {
 		margin-top: 15px;
 	}
+
 	/* Сеансы RitmStyle */
 
 	/* Отзывы */
 	.item {
 		height: 150px;
 	}
+
 	/* Об RitmStyle */
 	.Content-wrapper {
 		padding-top: 15px;
@@ -599,13 +619,27 @@ i {
 	p {
         padding: 10px 0px 0px 0px;
     }
-
+	.Content {
+		position: absolute;
+		z-index: 2;
+		padding-top: 35px !important;
+	}
+	.Img-Content {
+		position: relative;
+		width: 94%;
+	}
+	.Img-Content img {
+        width: 106%;
+    }
+	h2 {
+		text-align: center;
+	}
 	/* Стоимость сеансов */
-
+	
 	/* Карта */
 
 }
-@media screen and (max-width: 336px) {
+@media screen and (max-width: 320px) {
    /* Общие настройки */
 	
 	/* Header */
@@ -616,8 +650,10 @@ i {
 	
 	/* Отзывы */
 	
-	
 	/* Об RitmStyle */
+	.Content {
+		padding-top: 10px !important;
+	}
 
 	/* Стоимость сеансов */
 	
