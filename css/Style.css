@@ -660,7 +660,7 @@ i {
 	
 	/* First Screen */
 	.Aquatherapy {
-		margin-top: 15px;
+		margin-top: 20px;
 	}
 	.Offer__RitmStyle {
 		top: 115px;
@@ -696,6 +696,10 @@ i {
 		text-align: center;
 		font-size: 18px;
 	}
+	.Adaptive {
+		display: none;
+	}
+
 	/* Стоимость сеансов */
 	.Name-Price {
 		min-width: 225px;
@@ -705,6 +709,9 @@ i {
 	}
 	.Content-3 strong {
 		margin-left: 20px;
+	}
+	.Name-Price li::before {
+		padding-right: 10px;
 	}
 	/* Карта */
 	
@@ -721,9 +728,25 @@ i {
 	/* Header */
 	
 	/* First Screen */
-	
+	.Signature {
+		font-size: 10px;
+	}
+	.Offer__Text {
+		font-size: 25px;
+	}
 	/* Сеансы RitMStyle */
-	
+	.Grid__Sessions {
+		row-gap: 10px;
+		column-gap: 8px;
+		margin-left: 10px;
+	}
+	.Text-in-Sessions {
+		font-size: 7.9px;
+	}
+	.Card-Thanks {
+		display: none;
+		padding-right: 0px;
+	}
 	/* Отзывы */
 	
 	/* Об RitmStyle */
@@ -732,6 +755,8 @@ i {
 	}
 
 	/* Стоимость сеансов */
-	
+	.Content-3 {
+		padding-right: 10px;
+	}
 	/* Карта */
 }
